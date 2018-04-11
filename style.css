@@ -1,0 +1,16 @@
+header {
+  border: solid green;
+}
+
+header div {
+  display: flex;
+}
+
+header #app {
+  color: #4b4a4a;
+}
+
+header #strap {
+  color: #24adad;
+}
+/*# sourceMappingURL=style.css.map */

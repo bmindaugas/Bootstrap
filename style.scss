@@ -1,0 +1,14 @@
+$pilka: rgb(75, 74, 74);
+$melyna: rgb(36, 173, 173);
+header {
+    border: solid green;
+div {
+    display: flex;
+}
+#app {
+    color: $pilka;
+}
+#strap {
+    color: $melyna;
+}
+}
