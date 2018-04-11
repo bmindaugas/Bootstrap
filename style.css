@@ -1,5 +1,10 @@
 header {
-  border: solid green;
+  border-bottom: solid #ecf1f1 2px;
+}
+
+header .container {
+  height: 3em;
+  align-items: center;
 }
 
 header div {
@@ -7,10 +12,26 @@ header div {
 }
 
 header #app {
+  font-weight: 900;
+  font-family: "Do Hyeon", sans-serif;
   color: #4b4a4a;
 }
 
 header #strap {
+  font-family: "Do Hyeon", sans-serif;
   color: #24adad;
+}
+
+header #taskas {
+  font-family: "Do Hyeon", sans-serif;
+  color: #4b4a4a;
+}
+
+header .logo {
+  flex-basis: 70vw;
+}
+
+header .ms {
+  flex-basis: 30vw;
 }
 /*# sourceMappingURL=style.css.map */

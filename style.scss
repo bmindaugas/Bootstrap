@@ -1,14 +1,35 @@
 $pilka: rgb(75, 74, 74);
 $melyna: rgb(36, 173, 173);
+$sriftas: 'Do Hyeon', sans-serif;
 header {
-    border: solid green;
+    border-bottom: solid rgb(236, 241, 241) 2px;
+    
+.container {
+    height: 3em;
+    align-items: center;    
+}
 div {
-    display: flex;
+    display: flex;    
 }
 #app {
+    font-weight: 900;   
+    font-family: $sriftas; 
     color: $pilka;
-}
+}        
 #strap {
-    color: $melyna;
+    font-family: $sriftas;
+    color: $melyna;        
 }
+#taskas {
+    font-family: $sriftas;
+    color: $pilka;    
+}
+.logo {
+    flex-basis: 70vw;
+}
+.ms {
+    flex-basis: 30vw;
+}
+
+
 }
