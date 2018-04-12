@@ -2,7 +2,7 @@ header {
   border-bottom: solid #ecf1f1 2px;
 }
 
-header .container {
+header .menu {
   height: 3em;
   align-items: center;
 }
@@ -13,26 +13,28 @@ header div {
 
 header #app {
   font-weight: 900;
-  font-family: "Do Hyeon", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #5e5e5e;
 }
 
 header #strap {
-  font-family: "Do Hyeon", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #24adad;
 }
 
 header #taskas {
-  font-family: "Do Hyeon", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #5e5e5e;
 }
 
 header .logo {
-  flex-basis: 70vw;
+  flex-basis: 80vw;
+  margin-left: 5%;
+  margin-top: auto;
 }
 
 header .ms {
-  flex-basis: 30vw;
+  flex-basis: 20vw;
 }
 
 header .ms .material-icons {
@@ -42,5 +44,42 @@ header .ms .material-icons {
   position: relative;
   left: 15%;
   top: 5px;
+}
+
+.login {
+  margin: auto;
+  display: flex;
+  height: 55vmin;
+}
+
+.login .login1 {
+  box-shadow: 0px 0.2px 5px 0.5px #cfcfcf;
+  margin: auto;
+  width: 75%;
+  height: 80%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+.login .login1 button {
+  width: 40px;
+  height: 20px;
+  font-size: 0.65em;
+  background-color: #24adad;
+  color: white;
+  border: #24adad;
+  border-radius: 10%;
+}
+
+.login .login1 .form-group {
+  height: 1em;
+}
+
+.login .login1 .form-group #exampleInputEmail1 {
+  height: 1.4em;
+}
+
+.login .login1 .form-group #exampleInputPassword1 {
+  height: 1.4em;
 }
 /*# sourceMappingURL=style.css.map */

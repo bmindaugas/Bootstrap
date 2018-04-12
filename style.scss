@@ -1,10 +1,10 @@
 $pilka: rgb(94, 94, 94);
 $melyna: rgb(36, 173, 173);
-$sriftas: 'Do Hyeon', sans-serif;
+$sriftas: 'Open Sans', sans-serif;
 header {
     border-bottom: solid rgb(236, 241, 241) 2px;
     
-.container {
+.menu {
     height: 3em;
     align-items: center;    
 }
@@ -25,10 +25,12 @@ div {
     color: $pilka;    
 }
 .logo {
-    flex-basis: 70vw;
+    flex-basis: 80vw;
+    margin-left: 5%;
+    margin-top: auto;
 }
 .ms {
-    flex-basis: 30vw;
+    flex-basis: 20vw;
 .material-icons { 
     color: $pilka; 
     font-size: 1.2em; 
@@ -38,6 +40,39 @@ div {
     top: 5px;
 }
 }
+}
+.login {
+    // flex-grow: 1;
+    margin: auto;
+    display: flex;
+    height: 55vmin;
+    
+    .login1 {        
+        box-shadow: 0px 0.2px 5px 0.5px #cfcfcf;
+        margin: auto;
+        width: 75%;
+        height: 80%;  
+        font-family: $sriftas;     
+        font-weight: 900;
+            button {
+                width: 40px;
+                height: 20px;
+                font-size: 0.65em;
+                background-color: $melyna;
+                color: white;
+                border: $melyna;
+                border-radius: 10%;
+            }
+            .form-group {
+                height: 1em;
 
-
+                #exampleInputEmail1 { height: 1.4em; }
+                #exampleInputPassword1 { height: 1.4em;}
+                
+            }
+            
+            
+      
+        
+}
 }
