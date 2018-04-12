@@ -1,4 +1,4 @@
-$pilka: rgb(75, 74, 74);
+$pilka: rgb(94, 94, 94);
 $melyna: rgb(36, 173, 173);
 $sriftas: 'Do Hyeon', sans-serif;
 header {
@@ -29,6 +29,14 @@ div {
 }
 .ms {
     flex-basis: 30vw;
+.material-icons { 
+    color: $pilka; 
+    font-size: 1.2em; 
+    font-weight: 900; 
+    position: relative;
+    left: 15%;
+    top: 5px;
+}
 }
 
 
