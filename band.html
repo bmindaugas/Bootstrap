@@ -7,8 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
+  <style>
+    ul { 
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+li::after {
+  content: '';
+  border: 0.25em solid transparent;
+  border-left-color: black;
+  position: absolute;
+  transform: translate(0.2em, 0.4em);
+  transition: transform 0.5s;
+} 
+li:hover::after {
+  transform: translateY(0.5em) rotate(450deg);
+} 
+
+    }
+  </style>
 </head>
 <body>
-  
+    <ul>
+        <li>Pirmas</li>
+        <li>Antras</li>
+        <li>Trecias</li>
+        <li>Kitas</li>
+      </ul>
 </body>
 </html>
