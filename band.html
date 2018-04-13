@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>Band</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
@@ -26,8 +26,26 @@ li:hover::after {
   transform: translateY(0.5em) rotate(450deg);
 } 
 
+img { 
+  width: 100px; 
+  height: 100px; 
+  transition: width 3s, height 3s, transform 3s; 
+}
+img:active {
+  width: 400px; 
+  height: 400px;
+  transform: rotate(360deg);
+}
+@font-face { 
+  font-family: OpenSans-ExtraBold;
+  src: url(OpenSans-ExtraBold.ttf); 
+}
+li {
+  font-family: OpenSans-ExtraBold;
+}
     
   </style>
+
 </head>
 <body>
     <ul>
@@ -36,5 +54,6 @@ li:hover::after {
         <li>Trecias</li>
         <li>Kitas</li>
       </ul>
+      <div><img src="maska.jpg" alt="foto"></div>
 </body>
 </html>
