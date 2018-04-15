@@ -60,7 +60,17 @@ header .ms .material-icons {
   font-weight: 900;
 }
 
+.login .login1 #Login {
+  margin-left: 5%;
+}
+
+.login .login1 #Login hr {
+  margin: 0 0 5% 0;
+  width: 94.5%;
+}
+
 .login .login1 button {
+  margin-left: 5%;
   width: 40px;
   height: 20px;
   font-size: 0.65em;
@@ -72,13 +82,32 @@ header .ms .material-icons {
 
 .login .login1 .form-group {
   height: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login .login1 .form-group .form-control {
+  font-size: 0.7em;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .login .login1 .form-group #exampleInputEmail1 {
+  margin: auto;
+  width: 90%;
   height: 1.4em;
 }
 
 .login .login1 .form-group #exampleInputPassword1 {
+  margin: auto;
+  width: 90%;
   height: 1.4em;
+}
+
+.prisijungimas {
+  margin: auto;
+  height: 55vmin;
+  display: flex;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
