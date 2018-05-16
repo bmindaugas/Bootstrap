@@ -41,7 +41,7 @@ header .ms .material-icons {
   font-size: 1.2em;
   font-weight: 900;
   position: relative;
-  left: 15%;
+  left: 1%;
   top: 5px;
 }
 
@@ -81,6 +81,7 @@ header .ms .material-icons {
 }
 
 .login .login1 .form-group {
+  padding-top: 7px;
   height: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -110,4 +111,21 @@ header .ms .material-icons {
   display: flex;
   width: 100%;
 }
+#nsu {
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  /* margin: 7px 0; */
+  font-size: 0.7em;
+  color: #c8cfdc;
+  padding: 0 0 0 5%;
+}
+#suh {
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  /* margin: 7px 0; */
+  font-size: 0.7em;
+  color: #24adad;
+  padding: 0 0 7px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
