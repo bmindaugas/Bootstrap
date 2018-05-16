@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <title>Bootstrap1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.
+min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <style>
+        header {
+            border-bottom: solid #ecf1f1 2px;
+        }
+
+        header .menu {
+            height: 3em;
+            align-items: center;
+        }
+
+        header div {
+            display: flex;
+        }
+
+        header #app {
+            font-family: "Open Sans", sans-serif;
+            color: #5e5e5e;
+        }
+
+        header #strap {
+            font-family: "Open Sans", sans-serif;
+            color: #58a69a;
+        }
+
+        header #taskas {
+            font-family: "Open Sans", sans-serif;
+            color: #5e5e5e;
+        }
+
+        header .logo {
+            flex-basis: 80vw;
+            margin-left: 5%;
+            margin-top: auto;
+        }
+
+        header .ms {
+            flex-basis: 20vw;
+        }
+
+        header .ms .material-icons {
+            color: #5e5e5e;
+            font-size: 1.2em;
+            font-weight: 900;
+            position: relative;
+            left: 1%;
+            top: 5px;
+        }
+
+        .login {
+            margin: auto;
+            display: flex;
+            height: 55vmin;
+        }
+
+        .login .login1 {
+            box-shadow: 0px 0.2px 5px 0.5px #cfcfcf;
+            margin: auto;
+            width: 75%;
+            height: 80%;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 900;
+        }
+
+        .login .login1 #Login {
+            margin-left: 5%;
+        }
+
+        .login .login1 #Login hr {
+            margin: 0 0 5% 0;
+            width: 94.5%;
+        }
+
+        .login .login1 button {
+            margin-left: 5%;
+            width: 40px;
+            height: 20px;
+            font-size: 0.65em;
+            background-color: #58a69a;
+            color: white;
+            border: #58a69a;
+            border-radius: 10%;
+        }
+
+        .login .login1 .form-group {
+            padding-top: 7px;
+            height: 1em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .login .login1 .form-group .form-control {
+            font-size: 0.7em;
+            padding: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .login .login1 .form-group #exampleInputEmail1 {
+            margin: auto;
+            width: 90%;
+            height: 1.4em;
+        }
+
+        .login .login1 .form-group #exampleInputPassword1 {
+            margin: auto;
+            width: 90%;
+            height: 1.4em;
+        }
+
+        .prisijungimas {
+            margin: auto;
+            height: 55vmin;
+            display: flex;
+            width: 100%;
+        }
+
+        .nsu {
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin: 7px 0; */
+            font-size: 0.7em;
+            color: #c8cfdc;
+            padding: 0 0 0 5%;
+        }
+
+        .suh {
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin: 7px 0; */
+            font-size: 0.7em;
+            color: #58a69a;
+            padding: 0 0 7px 0;
+        }
+
+        .fp {
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 0 0 7px;
+            font-size: 0.5em;
+            color: #58a69a;
+            border-left: 1px solid black;
+            padding: 0 0 0px 7px;
+        }
+
+        .awfe {
+            width: 100%;
+            height: 35vmin;
+            background-color: #58a69a;
+            margin: auto;
+            display: flex;
+        }
+
+        .aw {
+            /* display: flex;   */
+            /* margin: auto;   */
+            width: 50vw;
+            color: white;
+            font-weight: 800;
+            font-size: 1.3em;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .fe {
+            /* display: flex; */
+            /* margin: auto;  */
+            width: 50vw;
+            color: #2f5852;
+            font-weight: 800;
+            font-size: 1.3em;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .u {
+            display: block;
+            width: 100vw;
+            color: white;
+            font-size: 0.7em;
+        }
+
+        /*# sourceMappingURL=style.css.map */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <div class="logo">
+                    <div id="app">
+                        <h5>App</h5>
+                    </div>
+                    <div id="strap">
+                        <h5>Strap</h5>
+                    </div>
+                    <div id="taskas">
+                        <h5>.</h5>
+                    </div>
+                </div>
+                <div class="ms">
+
+                    <!-- Single button -->
+
+                    <div data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="material-icons">menu</i>
+                        <span class="caret"></span>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">PAGES</a>
+                        </li>
+                        <li>
+                            <a href="#">FEATURES</a>
+                        </li>
+                        <li>
+                            <a href="#">SHOP</a>
+                        </li>
+                        <li>
+                            <a href="#">ELEMENTS</a>
+                        </li>
+                        <li>
+                            <a href="#">MEGA MENU</a>
+                        </li>
+                    </ul>
+                    <i class="material-icons">search</i>
+                </div>
+            </div>
+        </header>
+
+        <div class="login">
+            <div class="prisijungimas">
+                <div class="login1">
+                    <div id="Login">Login
+                        <hr style="margin-bottom: 7px">
+                    </div>
+                    <p class="nsu">Not signet up?</p>
+                    <p class="suh">Sign up here.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button>Login</button>
+                        <p class="fp">Forgotten Password?</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="awfe">
+        <div class="aw">AWESOME</div>
+        <div class="fe">FEATURES</div>
+        <div class="u">99.9% Uptime/Free Upgrades/Fully Responsive/Bug Free</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
